@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Letter A with curved element -->
+  <g transform="translate(50, 30)">
+    <!-- Main A shape -->
+    <path d="M50 140 L30 90 L70 90 Z M20 140 L50 40 L80 140 M35 110 L65 110" 
+          fill="white" 
+          stroke="white" 
+          stroke-width="8" 
+          stroke-linejoin="round" 
+          stroke-linecap="round"/>
+    
+    <!-- Curved element -->
+    <path d="M25 100 Q50 85 75 100" 
+          fill="none" 
+          stroke="#B8860B" 
+          stroke-width="6" 
+          stroke-linecap="round"/>
+  </g>
+</svg>

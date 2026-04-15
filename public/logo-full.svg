@@ -1,0 +1,23 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Letter A with curved element -->
+  <g transform="translate(50, 20)">
+    <!-- Main A shape -->
+    <path d="M80 160 L50 100 L110 100 Z M30 160 L80 20 L130 160 M55 120 L105 120" 
+          fill="white" 
+          stroke="white" 
+          stroke-width="12" 
+          stroke-linejoin="round" 
+          stroke-linecap="round"/>
+    
+    <!-- Curved element -->
+    <path d="M40 110 Q80 90 120 110" 
+          fill="none" 
+          stroke="#B8860B" 
+          stroke-width="8" 
+          stroke-linecap="round"/>
+  </g>
+  
+  <!-- Dreame ERP text -->
+  <text x="250" y="80" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">Dreame</text>
+  <text x="450" y="80" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#3B82F6">ERP</text>
+</svg>

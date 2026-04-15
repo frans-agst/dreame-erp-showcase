@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+/* Soft Light Gray Theme with Red/Green Accents */
+:root {
+  --background: #F5F5F5;
+  --surface: #FFFFFF;
+  --primary: #6B7280;
+  --secondary: #9CA3AF;
+  --muted: #D1D5DB;
+  --border: #E5E7EB;
+  
+  /* Semantic colors for validation, money, status */
+  --accent-positive: #10B981;
+  --accent-positive-light: #D1FAE5;
+  --accent-negative: #EF4444;
+  --accent-negative-light: #FEE2E2;
+  --accent-warning: #F59E0B;
+  --accent-warning-light: #FEF3C7;
+  
+  --foreground: var(--primary);
+}
+
+/* Monochrome Dark Theme with Semantic Accents */
+.dark {
+  --background: #0A0A0A;
+  --surface: #171717;
+  --primary: #FAFAFA;
+  --secondary: #A3A3A3;
+  --muted: #737373;
+  --border: #262626;
+  
+  /* Semantic colors preserved for validation, money, status */
+  --accent-positive: #34D399;
+  --accent-positive-light: #064E3B;
+  --accent-negative: #F87171;
+  --accent-negative-light: #7F1D1D;
+  --accent-warning: #FBBF24;
+  --accent-warning-light: #78350F;
+  
+  --foreground: var(--primary);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent-green: var(--accent-positive);
+  --color-accent-green-light: var(--accent-positive-light);
+  --color-accent-red: var(--accent-negative);
+  --color-accent-red-light: var(--accent-negative-light);
+  --color-accent-yellow: var(--accent-warning);
+  --color-accent-yellow-light: var(--accent-warning-light);
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2rem;
+  --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  --shadow-soft-hover: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.dark {
+  --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+  --shadow-soft-hover: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Soft UI utility classes */
+.soft-card {
+  background: var(--surface);
+  border-radius: var(--radius-3xl);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.soft-card:hover {
+  box-shadow: var(--shadow-soft-hover);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+/* Selection styling */
+::selection {
+  background: var(--primary);
+  color: var(--background);
+}

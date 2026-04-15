@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Letter A with curved element - favicon size -->
+  <g transform="translate(8, 4)">
+    <!-- Main A shape -->
+    <path d="M8 22 L5 15 L11 15 Z M3 22 L8 6 L13 22 M5.5 17 L10.5 17" 
+          fill="white" 
+          stroke="white" 
+          stroke-width="1.5" 
+          stroke-linejoin="round" 
+          stroke-linecap="round"/>
+    
+    <!-- Curved element -->
+    <path d="M4 16 Q8 13.5 12 16" 
+          fill="none" 
+          stroke="#B8860B" 
+          stroke-width="1.2" 
+          stroke-linecap="round"/>
+  </g>
+</svg>
