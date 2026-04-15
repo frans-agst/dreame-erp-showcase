@@ -41,11 +41,12 @@ By transitioning from manual operational tracking to this custom automated archi
 ## 🖼️ Interface Preview
 <details>
   <summary>Click to reveal the images!</summary>
-<img width="1891" height="941" alt="Untitled design (2)" src="https://github.com/user-attachments/assets/22c033be-7fb6-4fe0-90f5-b61454608457" />
-<img width="1891" height="941" alt="Untitled design (1)" src="https://github.com/user-attachments/assets/1d0940af-9d55-40d8-9787-891f18cdec9f" />
-<img width="1891" height="941" alt="Untitled design" src="https://github.com/user-attachments/assets/d73ca110-3321-49bb-8878-13e8ab918adc" />
-<img width="1904" height="915" alt="Screenshot 2026-04-15 182948" src="https://github.com/user-attachments/assets/7776fd43-e4c1-42b1-887c-5f1e56a7d8a2" />
-<img width="1891" height="941" alt="Untitled design (3)" src="https://github.com/user-attachments/assets/4bb506e6-416a-45fc-8718-4787e13c2b2e" />
-<img width="1914" height="931" alt="Screenshot 2026-04-15 183109" src="https://github.com/user-attachments/assets/f4561dbf-12ac-4b5a-9d9e-253b3dd55451" />
+<img width="1891" height="927" alt="1" src="https://github.com/user-attachments/assets/42d83015-2709-40ed-bf13-8983911ba1bd" />
+<img width="1891" height="941" alt="2" src="https://github.com/user-attachments/assets/13ebb1c7-0b22-44a1-b803-19f97dbc9fa4" />
+<img width="1904" height="915" alt="3" src="https://github.com/user-attachments/assets/292d4f06-d27e-48e1-85fe-6bbe364ec61e" />
+<img width="1891" height="891" alt="4" src="https://github.com/user-attachments/assets/3a60f572-07e2-4694-ab40-733e033f099d" />
+<img width="1891" height="888" alt="5" src="https://github.com/user-attachments/assets/8d91c04e-ff9c-4445-ae87-244c157fd549" />
+<img width="1914" height="931" alt="6" src="https://github.com/user-attachments/assets/7bf91aea-f025-4ed3-af5f-fee4af5584d2" />
+
 </details>
 
