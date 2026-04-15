@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for price filtering utilities
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  * 
  * **Validates: Requirements 1.3, 1.4, 1.5**
  */

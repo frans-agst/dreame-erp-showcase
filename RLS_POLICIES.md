@@ -1,7 +1,7 @@
-# Supabase Row-Level Security (RLS) Policies
+﻿# Supabase Row-Level Security (RLS) Policies
 
 ## Overview
-This document contains the exact SQL definitions for all RLS policies used in the Dreame Retail ERP system. These policies enforce data access control based on user roles and store assignments.
+This document contains the exact SQL definitions for all RLS policies used in the OmniERP Retail ERP system. These policies enforce data access control based on user roles and store assignments.
 
 **Last Updated:** March 2026  
 **Schema Version:** 2.0 (Multi-Store Support)

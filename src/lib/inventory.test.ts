@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for inventory display utilities
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  */
 
 import { describe, it, expect } from 'vitest';
@@ -10,7 +10,7 @@ import { ProductColumn } from '@/actions/inventory';
 
 describe('Inventory Display Utilities', () => {
   /**
-   * Feature: dreame-retail-erp, Property 5: Zero-Stock Product Column Hiding
+   * Feature: omnierp-retail-erp, Property 5: Zero-Stock Product Column Hiding
    * *For any* product where the sum of inventory quantities across all branches equals zero,
    * that product SHALL NOT appear as a column in the inventory matrix display.
    * **Validates: Requirements 3.2**
@@ -98,7 +98,7 @@ describe('Inventory Display Utilities', () => {
   });
 
   /**
-   * Feature: dreame-retail-erp, Property 6: Low Stock Indicator
+   * Feature: omnierp-retail-erp, Property 6: Low Stock Indicator
    * *For any* inventory cell where quantity is between 0 and 9 (inclusive),
    * the cell SHALL display a low-stock visual indicator.
    * **Validates: Requirements 3.5**

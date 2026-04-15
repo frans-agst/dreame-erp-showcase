@@ -1,6 +1,6 @@
-// src/lib/validations/sales.test.ts
+﻿// src/lib/validations/sales.test.ts
 // Property-Based Test for Sales Required Field Validation
-// Feature: dreame-retail-erp, Property 11: Sales Required Field Validation
+// Feature: omnierp-retail-erp, Property 11: Sales Required Field Validation
 // **Validates: Requirements 5.6, 10.1**
 
 import { describe, it, expect } from 'vitest';

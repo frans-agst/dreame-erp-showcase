@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
 import { Expense } from '@/actions/expenses';
 
@@ -209,7 +209,7 @@ export function ExpensesReportPDF({ expenses, filters }: ExpensesReportPDFProps)
 
         {/* Footer */}
         <Text style={styles.footer}>
-          Dreame Retail ERP - Expenses Report - Page 1
+          OmniERP Retail ERP - Expenses Report - Page 1
         </Text>
       </Page>
     </Document>

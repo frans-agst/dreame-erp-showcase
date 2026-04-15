@@ -1,5 +1,5 @@
-// src/types/index.ts
-// Dreame Retail ERP v2.0 - Updated Types
+﻿// src/types/index.ts
+// OmniERP Retail ERP v2.0 - Updated Types
 
 // ============================================
 // ENUMS AND BASIC TYPES

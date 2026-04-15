@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for channel pricing lookup
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  * 
  * **Property 6: Channel Price Lookup**
  * **Validates: Requirements 3.4, 3.5, 7.4**

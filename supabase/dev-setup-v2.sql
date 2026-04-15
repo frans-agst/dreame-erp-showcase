@@ -1,5 +1,5 @@
--- ============================================
--- DREAME RETAIL ERP V2.0 - COMPLETE DEV SETUP
+﻿-- ============================================
+-- OMNIERP RETAIL ERP V2.0 - COMPLETE DEV SETUP
 -- Run this ONCE in your DEV Supabase SQL Editor
 -- This creates everything from scratch
 -- ============================================
@@ -512,10 +512,10 @@ SELECT
   s.region,
   s.target
 FROM (VALUES
-  ('Brandstore', 'Dreame Brandstore Lippo Mall Kemang', 'Jakarta', 100000000),
-  ('Brandstore', 'Dreame Brandstore PURI INDAH MALL 2', 'Jakarta', 100000000),
-  ('Brandstore', 'Dreame Brandstore Supermal Karawaci', 'Tangerang', 80000000),
-  ('Brandstore', 'Dreame Brandstore TSM Cibubur', 'Jakarta', 80000000),
+  ('Brandstore', 'OmniERP Brandstore Lippo Mall Kemang', 'Jakarta', 100000000),
+  ('Brandstore', 'OmniERP Brandstore PURI INDAH MALL 2', 'Jakarta', 100000000),
+  ('Brandstore', 'OmniERP Brandstore Supermal Karawaci', 'Tangerang', 80000000),
+  ('Brandstore', 'OmniERP Brandstore TSM Cibubur', 'Jakarta', 80000000),
   ('Hartono', 'Hartono Pondok Indah', 'Jakarta', 75000000),
   ('Electronic City', 'Electronic City SCBD', 'Jakarta', 75000000),
   ('Electronic City', 'Electronic City KARAWACI', 'Tangerang', 60000000),
@@ -529,16 +529,16 @@ ON CONFLICT DO NOTHING;
 
 -- Insert sample products with dynamic pricing
 INSERT INTO public.products (sku, name, category, sub_category, price_retail, price_buy, channel_pricing) VALUES
-  ('DRM-L10S-ULTRA', 'Dreame L10s Ultra', 'Robot Vacuum', 'Premium', 12999000, 9099300, '{"hartono": 11049150, "ec": 10659180, "best": 10789170, "atria": 10919160}'),
-  ('DRM-L20-ULTRA', 'Dreame L20 Ultra', 'Robot Vacuum', 'Premium', 15999000, 11199300, '{"hartono": 13599150, "ec": 13119180, "best": 13279170, "atria": 13439160}'),
-  ('DRM-X30-ULTRA', 'Dreame X30 Ultra', 'Robot Vacuum', 'Flagship', 19999000, 13999300, '{"hartono": 16999150, "ec": 16399180, "best": 16599170, "atria": 16799160}'),
-  ('DRM-H12-PRO', 'Dreame H12 Pro', 'Wet & Dry Vacuum', 'Premium', 7999000, 5599300, '{"hartono": 6799150, "ec": 6559180, "best": 6639170, "atria": 6719160}'),
-  ('DRM-H13-PRO', 'Dreame H13 Pro', 'Wet & Dry Vacuum', 'Premium', 9999000, 6999300, '{"hartono": 8499150, "ec": 8199180, "best": 8299170, "atria": 8399160}'),
-  ('DRM-V16', 'Dreame V16', 'Cordless Vacuum', 'Mid-Range', 4999000, 3499300, '{"hartono": 4249150, "ec": 4099180, "best": 4149170, "atria": 4199160}'),
-  ('DRM-R20', 'Dreame R20', 'Cordless Vacuum', 'Premium', 8999000, 6299300, '{"hartono": 7649150, "ec": 7379180, "best": 7469170, "atria": 7559160}'),
-  ('DRM-HAIRGLORY', 'Dreame Hair Glory', 'Hair Dryer', 'Premium', 2999000, 2099300, '{"hartono": 2549150, "ec": 2459180, "best": 2489170, "atria": 2519160}'),
-  ('DRM-POCKET', 'Dreame Pocket', 'Hair Dryer', 'Compact', 1499000, 1049300, '{"hartono": 1274150, "ec": 1229180, "best": 1244170, "atria": 1259160}'),
-  ('DRM-AIRMOUSE', 'Dreame AirMouse', 'Hair Styler', 'Premium', 3499000, 2449300, '{"hartono": 2974150, "ec": 2869180, "best": 2904170, "atria": 2939160}')
+  ('DRM-L10S-ULTRA', 'OmniERP L10s Ultra', 'Robot Vacuum', 'Premium', 12999000, 9099300, '{"hartono": 11049150, "ec": 10659180, "best": 10789170, "atria": 10919160}'),
+  ('DRM-L20-ULTRA', 'OmniERP L20 Ultra', 'Robot Vacuum', 'Premium', 15999000, 11199300, '{"hartono": 13599150, "ec": 13119180, "best": 13279170, "atria": 13439160}'),
+  ('DRM-X30-ULTRA', 'OmniERP X30 Ultra', 'Robot Vacuum', 'Flagship', 19999000, 13999300, '{"hartono": 16999150, "ec": 16399180, "best": 16599170, "atria": 16799160}'),
+  ('DRM-H12-PRO', 'OmniERP H12 Pro', 'Wet & Dry Vacuum', 'Premium', 7999000, 5599300, '{"hartono": 6799150, "ec": 6559180, "best": 6639170, "atria": 6719160}'),
+  ('DRM-H13-PRO', 'OmniERP H13 Pro', 'Wet & Dry Vacuum', 'Premium', 9999000, 6999300, '{"hartono": 8499150, "ec": 8199180, "best": 8299170, "atria": 8399160}'),
+  ('DRM-V16', 'OmniERP V16', 'Cordless Vacuum', 'Mid-Range', 4999000, 3499300, '{"hartono": 4249150, "ec": 4099180, "best": 4149170, "atria": 4199160}'),
+  ('DRM-R20', 'OmniERP R20', 'Cordless Vacuum', 'Premium', 8999000, 6299300, '{"hartono": 7649150, "ec": 7379180, "best": 7469170, "atria": 7559160}'),
+  ('DRM-HAIRGLORY', 'OmniERP Hair Glory', 'Hair Dryer', 'Premium', 2999000, 2099300, '{"hartono": 2549150, "ec": 2459180, "best": 2489170, "atria": 2519160}'),
+  ('DRM-POCKET', 'OmniERP Pocket', 'Hair Dryer', 'Compact', 1499000, 1049300, '{"hartono": 1274150, "ec": 1229180, "best": 1244170, "atria": 1259160}'),
+  ('DRM-AIRMOUSE', 'OmniERP AirMouse', 'Hair Styler', 'Premium', 3499000, 2449300, '{"hartono": 2974150, "ec": 2869180, "best": 2904170, "atria": 2939160}')
 ON CONFLICT (sku) DO UPDATE SET
   name = EXCLUDED.name,
   category = EXCLUDED.category,

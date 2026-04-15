@@ -1,5 +1,5 @@
-/**
- * Final Testing - Dreame Retail ERP v2.0
+﻿/**
+ * Final Testing - OmniERP Retail ERP v2.0
  * Task 16: Final Testing
  * 
  * This file contains comprehensive tests for:
@@ -1090,8 +1090,8 @@ describe('16.3 Test Internationalization (i18n)', () => {
    */
   describe('Language Persistence', () => {
     it('Storage key for language preference is defined', () => {
-      const STORAGE_KEY = 'dreame-erp-lang';
-      expect(STORAGE_KEY).toBe('dreame-erp-lang');
+      const STORAGE_KEY = 'omnierp-erp-lang';
+      expect(STORAGE_KEY).toBe('omnierp-erp-lang');
     });
 
     it('Supported languages are EN and ID', () => {

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dreame Retail ERP",
-  description: "Retail ERP and Sales Dashboard for Dreame Indonesia",
+  title: "OmniERP Retail ERP",
+  description: "Retail ERP and Sales Dashboard for OmniERP Indonesia",
   icons: {
     icon: '/icon.svg',
   },

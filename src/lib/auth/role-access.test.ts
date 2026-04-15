@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for Role-Based Access Control
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  * 
  * Property 1: Role-Based Data Access
  * *For any* user with role 'staff' and assigned branch_id, when querying sales, inventory,

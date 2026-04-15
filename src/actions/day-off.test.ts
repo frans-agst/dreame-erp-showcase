@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for day-off request functionality
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  */
 
 import { describe, it, expect } from 'vitest';
@@ -8,7 +8,7 @@ import * as fc from 'fast-check';
 import { DayOffRequestSchema } from '@/lib/validations/day-off';
 
 /**
- * Feature: dreame-retail-erp, Property 12: Day-Off Initial Status
+ * Feature: omnierp-retail-erp, Property 12: Day-Off Initial Status
  * *For any* newly created day-off request, the status SHALL be 'pending'.
  * **Validates: Requirements 6.1**
  * 

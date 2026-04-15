@@ -1,4 +1,4 @@
-# Sub-Category Differentiation - Fix Applied
+﻿# Sub-Category Differentiation - Fix Applied
 
 ## Issue Identified
 The database contains sub-category values "Accessory" and "Steam Cleaner" that were not included in the frontend dropdown, causing filtering to fail on the sales input page.
@@ -12,7 +12,7 @@ The database contains sub-category values "Accessory" and "Steam Cleaner" that w
 Added the missing sub-categories to the frontend dropdown.
 
 ### Updated File
-`dreame-erp/src/lib/product-categories.ts`
+`omnierp-erp/src/lib/product-categories.ts`
 
 ### New Dropdown Options (10 total)
 1. Wet & Dry
@@ -54,7 +54,7 @@ ORDER BY sub_category;
 
 Or use the quick check script:
 ```
-dreame-erp/scripts/check-subcategories.sql
+omnierp-erp/scripts/check-subcategories.sql
 ```
 
 ## Expected Behavior After Fix
@@ -93,11 +93,11 @@ However, adding them to the dropdown (current solution) is better because:
 3. No data loss
 
 ## Files Modified
-- `dreame-erp/src/lib/product-categories.ts` - Added "Steam Cleaner" and "Accessory" to dropdown
+- `omnierp-erp/src/lib/product-categories.ts` - Added "Steam Cleaner" and "Accessory" to dropdown
 
 ## Files Created
-- `dreame-erp/scripts/check-subcategories.sql` - Quick check script
-- `dreame-erp/SUBCATEGORY-FIX-APPLIED.md` - This document
+- `omnierp-erp/scripts/check-subcategories.sql` - Quick check script
+- `omnierp-erp/SUBCATEGORY-FIX-APPLIED.md` - This document
 
 ## Status
 ✅ **FIXED** - Sub-category filtering should now work correctly on the sales input page.

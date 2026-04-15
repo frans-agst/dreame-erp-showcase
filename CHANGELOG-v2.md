@@ -1,4 +1,4 @@
-# Dreame Retail ERP v2.0 - Change Summary
+﻿# OmniERP Retail ERP v2.0 - Change Summary
 
 ## Migration Date: January 2026
 

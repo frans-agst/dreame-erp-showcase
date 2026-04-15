@@ -1,4 +1,4 @@
-import {
+﻿import {
   Document,
   Page,
   Text,
@@ -202,7 +202,7 @@ export function WeeklySalesReportPDF({ report, filters }: WeeklySalesReportPDFPr
         {/* Header */}
         <View style={styles.header}>
           <Text style={styles.title}>Weekly Sales Report</Text>
-          <Text style={styles.subtitle}>Dreame Indonesia</Text>
+          <Text style={styles.subtitle}>OmniERP Indonesia</Text>
         </View>
 
         {/* Filter Info */}
@@ -290,7 +290,7 @@ export function WeeklySalesReportPDF({ report, filters }: WeeklySalesReportPDFPr
             day: 'numeric',
             hour: '2-digit',
             minute: '2-digit'
-          })} | Dreame Indonesia ERP System
+          })} | OmniERP Indonesia ERP System
         </Text>
       </Page>
     </Document>

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -270,11 +270,11 @@ export function Sidebar({ userRole, isOpen = true, onClose }: SidebarProps) {
           <Link href="/dashboard" className="flex items-center gap-2">
             <img 
               src="/logo-icon.svg" 
-              alt="Dreame ERP" 
+              alt="OmniERP ERP" 
               className="w-8 h-8"
               style={{ filter: 'drop-shadow(0 0 4px rgba(0,0,0,0.3))' }}
             />
-            <span className="font-semibold text-primary">Dreame ERP</span>
+            <span className="font-semibold text-primary">OmniERP ERP</span>
           </Link>
           <button
             onClick={onClose}

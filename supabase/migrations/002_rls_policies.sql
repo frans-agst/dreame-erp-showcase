@@ -1,4 +1,4 @@
--- Row Level Security Policies for Dreame Retail ERP
+﻿-- Row Level Security Policies for OmniERP Retail ERP
 -- This migration creates all RLS policies based on user roles from JWT metadata
 
 -- ============================================

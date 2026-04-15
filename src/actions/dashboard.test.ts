@@ -1,13 +1,13 @@
-/**
+﻿/**
  * Property-based tests for dashboard aggregation consistency
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  */
 
 import { describe, it, expect } from 'vitest';
 import * as fc from 'fast-check';
 
 /**
- * Feature: dreame-retail-erp, Property 15: Dashboard Aggregation Consistency
+ * Feature: omnierp-retail-erp, Property 15: Dashboard Aggregation Consistency
  * *For any* dashboard view:
  * - Sum of category GMV values SHALL equal total GMV
  * - Sum of province GMV values SHALL equal total GMV

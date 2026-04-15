@@ -1,4 +1,4 @@
-# Brandstore Filter Applied
+﻿# Brandstore Filter Applied
 
 ## Changes Made
 Filtered store selection on Dashboard and Weekly Report pages to show only brandstores.
@@ -6,7 +6,7 @@ Filtered store selection on Dashboard and Weekly Report pages to show only brand
 ## Files Modified
 
 ### 1. Dashboard Page
-**File:** `dreame-erp/src/app/(dashboard)/dashboard/page.tsx`
+**File:** `omnierp-erp/src/app/(dashboard)/dashboard/page.tsx`
 
 **Change:** When fetching stores by account, filter to show only stores where `account.channel_type === 'Brandstore'`
 
@@ -23,7 +23,7 @@ setStores(brandstores);
 ```
 
 ### 2. Weekly Report Page
-**File:** `dreame-erp/src/app/(dashboard)/sales/weekly/page.tsx`
+**File:** `omnierp-erp/src/app/(dashboard)/sales/weekly/page.tsx`
 
 **Change:** When filtering stores by account, only show brandstores
 

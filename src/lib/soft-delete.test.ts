@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for soft delete functionality
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  * 
  * Property 17: Soft Delete for Referenced Records
  * *For any* master data record (product, staff, branch) that is referenced by 
@@ -22,7 +22,7 @@ import {
 
 describe('Property 17: Soft Delete for Referenced Records', () => {
   /**
-   * Feature: dreame-retail-erp, Property 17: Soft Delete for Referenced Records
+   * Feature: omnierp-retail-erp, Property 17: Soft Delete for Referenced Records
    * **Validates: Requirements 11.5**
    */
   

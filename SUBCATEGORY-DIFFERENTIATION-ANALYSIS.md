@@ -1,4 +1,4 @@
-# Sub-Category Differentiation Analysis Report
+﻿# Sub-Category Differentiation Analysis Report
 
 ## Issue Description
 You reported that there's still differentiation in sub-category values, which is causing filtering issues on the sales input page.
@@ -66,7 +66,7 @@ Execute the diagnostic script to get a full report:
 
 ```bash
 # In Supabase SQL Editor, run:
-dreame-erp/scripts/diagnose-subcategory-issue.sql
+omnierp-erp/scripts/diagnose-subcategory-issue.sql
 ```
 
 This will provide:
@@ -104,18 +104,18 @@ If diagnostic shows old format values:
 
 ```bash
 # In Supabase SQL Editor, run:
-dreame-erp/supabase/migrations/017_standardize_subcategory_values.sql
+omnierp-erp/supabase/migrations/017_standardize_subcategory_values.sql
 ```
 
 Then verify with:
 ```bash
-dreame-erp/scripts/verify-subcategory-migration.sql
+omnierp-erp/scripts/verify-subcategory-migration.sql
 ```
 
 ### Solution B: Add Missing Values to Dropdown
 If diagnostic shows extra values that are valid:
 
-1. Edit `dreame-erp/src/lib/product-categories.ts`
+1. Edit `omnierp-erp/src/lib/product-categories.ts`
 2. Add the missing values to `PRODUCT_SUB_CATEGORIES` array
 3. Example:
 ```typescript
@@ -216,21 +216,21 @@ WHERE sub_category != TRIM(sub_category);
 ## Files Reference
 
 ### Diagnostic Files
-- `dreame-erp/scripts/diagnose-subcategory-issue.sql` - NEW: Comprehensive diagnostic
-- `dreame-erp/scripts/test-subcategory-migration.sql` - Pre-migration test
-- `dreame-erp/scripts/verify-subcategory-migration.sql` - Post-migration verification
+- `omnierp-erp/scripts/diagnose-subcategory-issue.sql` - NEW: Comprehensive diagnostic
+- `omnierp-erp/scripts/test-subcategory-migration.sql` - Pre-migration test
+- `omnierp-erp/scripts/verify-subcategory-migration.sql` - Post-migration verification
 
 ### Migration Files
-- `dreame-erp/supabase/migrations/017_standardize_subcategory_values.sql` - Main migration
+- `omnierp-erp/supabase/migrations/017_standardize_subcategory_values.sql` - Main migration
 
 ### Frontend Files
-- `dreame-erp/src/lib/product-categories.ts` - Dropdown options definition
-- `dreame-erp/src/app/(dashboard)/sales/input/page.tsx` - Sales input form with filtering
+- `omnierp-erp/src/lib/product-categories.ts` - Dropdown options definition
+- `omnierp-erp/src/app/(dashboard)/sales/input/page.tsx` - Sales input form with filtering
 
 ### Spec Files
-- `dreame-erp/.kiro/specs/fix-subcategory-sync/requirements.md`
-- `dreame-erp/.kiro/specs/fix-subcategory-sync/design.md`
-- `dreame-erp/.kiro/specs/fix-subcategory-sync/tasks.md`
+- `omnierp-erp/.kiro/specs/fix-subcategory-sync/requirements.md`
+- `omnierp-erp/.kiro/specs/fix-subcategory-sync/design.md`
+- `omnierp-erp/.kiro/specs/fix-subcategory-sync/tasks.md`
 
 ## Summary
 

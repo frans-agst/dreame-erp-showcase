@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for fiscal calendar utilities
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  */
 
 import { describe, it, expect } from 'vitest';
@@ -103,7 +103,7 @@ function generateMockFiscalCalendar(
 
 describe('Fiscal Calendar Utilities', () => {
   /**
-   * Feature: dreame-retail-erp, Property 4: Fiscal Run Rate Calculation
+   * Feature: omnierp-retail-erp, Property 4: Fiscal Run Rate Calculation
    * *For any* store with current_sales, fiscal_days_elapsed, and total_fiscal_days_in_month,
    * run_rate SHALL equal `(current_sales / MAX(1, fiscal_days_elapsed)) * total_fiscal_days_in_month`
    * **Validates: Requirements 4.4, 5.2**
@@ -230,7 +230,7 @@ describe('Fiscal Calendar Utilities', () => {
   });
 
   /**
-   * Feature: dreame-retail-erp, Fiscal Run Rate Percentage
+   * Feature: omnierp-retail-erp, Fiscal Run Rate Percentage
    * Tests for calculateFiscalRunRatePct function
    * **Validates: Requirements 5.2**
    */
@@ -266,7 +266,7 @@ describe('Fiscal Calendar Utilities', () => {
   });
 
   /**
-   * Feature: dreame-retail-erp, Property 8: Fiscal Calendar Week Boundaries
+   * Feature: omnierp-retail-erp, Property 8: Fiscal Calendar Week Boundaries
    * *For any* weekly report query, the date range SHALL be determined by fiscal_calendar table
    * where fiscal_week matches, NOT by standard SQL week functions.
    * **Validates: Requirements 4.2, 15.1**

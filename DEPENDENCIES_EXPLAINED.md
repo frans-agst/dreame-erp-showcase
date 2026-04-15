@@ -1,8 +1,8 @@
-# Dreame Retail ERP - Dependencies Explained
+﻿# OmniERP Retail ERP - Dependencies Explained
 
 **Purpose:** Documentation of all project dependencies and the rationale behind each technology choice.  
 **Date:** March 2026  
-**Project:** Dreame Retail ERP System
+**Project:** OmniERP Retail ERP System
 
 ---
 

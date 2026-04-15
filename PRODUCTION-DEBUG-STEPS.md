@@ -1,4 +1,4 @@
-# Production Debugging Steps for Sales Achievement
+﻿# Production Debugging Steps for Sales Achievement
 
 ## The Real Issue
 
@@ -14,7 +14,7 @@ This is NOT an RLS issue. It's likely a **data query or date handling issue**.
 
 ### Step 1: Check Browser Console in Production
 
-1. Open your production site: `https://dreame-erp.vercel.app/sales` (or your actual URL)
+1. Open your production site: `https://omnierp-erp.vercel.app/sales` (or your actual URL)
 2. Open Browser DevTools (F12)
 3. Go to **Console** tab
 4. Refresh the page
@@ -101,7 +101,7 @@ ORDER BY month DESC;
 The page has this filter:
 
 ```typescript
-// Filter to show only Brandstore (Dreame Brandstore) accounts
+// Filter to show only Brandstore (OmniERP Brandstore) accounts
 filteredData = filteredData.filter(a => 
   a.account_name && a.account_name.toLowerCase().includes('brandstore')
 );

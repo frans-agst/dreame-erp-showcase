@@ -1,4 +1,4 @@
--- Audit Log Triggers for Dreame Retail ERP
+﻿-- Audit Log Triggers for OmniERP Retail ERP
 -- This migration creates triggers to automatically log all data changes
 
 -- ============================================

@@ -1,4 +1,4 @@
-# Implementation Plan: Dreame Retail ERP v2.0 Refactoring
+﻿# Implementation Plan: OmniERP Retail ERP v2.0 Refactoring
 
 ## Overview
 

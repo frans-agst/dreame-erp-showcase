@@ -1,9 +1,9 @@
-// src/app/(auth)/layout.tsx
+﻿// src/app/(auth)/layout.tsx
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Login - Dreame Retail ERP',
-  description: 'Sign in to your Dreame Retail ERP account',
+  title: 'Login - OmniERP Retail ERP',
+  description: 'Sign in to your OmniERP Retail ERP account',
 };
 
 export default function AuthLayout({

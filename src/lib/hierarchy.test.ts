@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for Account-Store hierarchy
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  * 
  * **Validates: Requirements 2.3, 2.5**
  * 

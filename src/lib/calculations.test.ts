@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for calculation utilities
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  */
 
 import { describe, it, expect } from 'vitest';
@@ -18,7 +18,7 @@ import {
 
 describe('Calculation Utilities', () => {
   /**
-   * Feature: dreame-retail-erp, Property 3: Run Rate Calculation
+   * Feature: omnierp-retail-erp, Property 3: Run Rate Calculation
    * *For any* branch with current_sales, days_elapsed_in_month, and total_days_in_month,
    * the run_rate SHALL equal `(current_sales / MAX(1, days_elapsed_in_month)) * total_days_in_month`
    * **Validates: Requirements 2.2, 2.3**
@@ -62,7 +62,7 @@ describe('Calculation Utilities', () => {
   });
 
   /**
-   * Feature: dreame-retail-erp, Property 4: Achievement Status Badge
+   * Feature: omnierp-retail-erp, Property 4: Achievement Status Badge
    * *For any* achievement_percentage value:
    * - If achievement_percentage < 50, status SHALL be 'red'
    * - If 50 <= achievement_percentage <= 80, status SHALL be 'yellow'
@@ -123,7 +123,7 @@ describe('Calculation Utilities', () => {
   });
 
   /**
-   * Feature: dreame-retail-erp, Property 7: Purchase Order Line Calculations
+   * Feature: omnierp-retail-erp, Property 7: Purchase Order Line Calculations
    * *For any* PO line item with before_tax price and quantity:
    * - after_tax SHALL equal `before_tax * 1.11` (11% VAT)
    * - line_total SHALL equal `after_tax * quantity`
@@ -177,7 +177,7 @@ describe('Calculation Utilities', () => {
   });
 
   /**
-   * Feature: dreame-retail-erp, Property 9: Sales Final Price Calculation
+   * Feature: omnierp-retail-erp, Property 9: Sales Final Price Calculation
    * *For any* sale with price and discount, final_price SHALL equal `price - discount`
    * **Validates: Requirements 5.5**
    */
@@ -212,7 +212,7 @@ describe('Calculation Utilities', () => {
   });
 
   /**
-   * Feature: dreame-retail-erp, Property 14: Stock Opname Discrepancy Calculation
+   * Feature: omnierp-retail-erp, Property 14: Stock Opname Discrepancy Calculation
    * *For any* stock opname item with previous_qty and counted_qty,
    * discrepancy SHALL equal `counted_qty - previous_qty`
    * **Validates: Requirements 7.6**

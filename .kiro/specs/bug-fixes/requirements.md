@@ -1,8 +1,8 @@
-# Requirements Document: Bug Fixes for Audit Log and Sales Achievement
+﻿# Requirements Document: Bug Fixes for Audit Log and Sales Achievement
 
 ## Introduction
 
-This document outlines the requirements for fixing two critical bugs in the Dreame Retail ERP system:
+This document outlines the requirements for fixing two critical bugs in the OmniERP Retail ERP system:
 1. Audit log not capturing recent data changes
 2. Sales achievement showing 0 despite having sales data
 

@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-Based Tests for Store-Based Data Isolation
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  * 
  * **Property 2: Store-Based Data Isolation**
  * *For any* Staff user with assigned `store_id`, queries to sales, inventory, 

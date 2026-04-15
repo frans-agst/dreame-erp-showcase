@@ -1,8 +1,8 @@
-# Security Audit Checklist - Dreame Retail ERP
+﻿# Security Audit Checklist - OmniERP Retail ERP
 
 ## Audit Date: January 30, 2026 (Updated)
 
-This document records the security audit findings for the Dreame Retail ERP system.
+This document records the security audit findings for the OmniERP Retail ERP system.
 
 ---
 

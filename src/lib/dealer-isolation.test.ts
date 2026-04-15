@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for dealer data isolation
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  * 
  * **Property 3: Dealer Data Isolation**
  * *For any* Dealer user, queries to purchase_orders and credit_notes 

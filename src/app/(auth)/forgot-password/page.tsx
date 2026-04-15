@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
@@ -118,7 +118,7 @@ export default function ForgotPasswordPage() {
       <div className="text-center mb-8">
         <img 
           src="/logo-icon.svg" 
-          alt="Dreame ERP" 
+          alt="OmniERP ERP" 
           className="w-12 h-12 mx-auto mb-4"
           style={{ filter: 'drop-shadow(0 0 6px rgba(0,0,0,0.3))' }}
         />

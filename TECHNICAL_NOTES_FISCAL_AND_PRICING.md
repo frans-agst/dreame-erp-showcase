@@ -1,4 +1,4 @@
-# Technical Notes: Fiscal Calendar Run Rate & Dynamic Channel Pricing
+﻿# Technical Notes: Fiscal Calendar Run Rate & Dynamic Channel Pricing
 
 **Purpose:** Internal reference for fiscal calendar calculations and dynamic JSONB channel pricing implementation.  
 **Date:** March 2026  
@@ -593,7 +593,7 @@ export async function createPurchaseOrderV2(
 
 **Typical Flow:**
 
-1. Manager selects an Account (e.g., "Brandstore - Dreame Brandstore")
+1. Manager selects an Account (e.g., "Brandstore - OmniERP Brandstore")
 2. System determines price_source based on account (e.g., "brandstore")
 3. When adding products, frontend calls `getProductPriceBySource(productId, "brandstore")`
 4. System looks up `channel_pricing.brandstore` from JSONB
@@ -604,7 +604,7 @@ export async function createPurchaseOrderV2(
 
 ```typescript
 // Frontend code (simplified)
-const account = selectedAccount; // { id: '...', channel_type: 'Brandstore', name: 'Dreame Brandstore' }
+const account = selectedAccount; // { id: '...', channel_type: 'Brandstore', name: 'OmniERP Brandstore' }
 const priceSource = account.channel_type.toLowerCase().replace(' ', '_'); // 'brandstore'
 
 // Call server action to get price

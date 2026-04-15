@@ -1,8 +1,8 @@
-# Requirements Document
+﻿# Requirements Document
 
 ## Introduction
 
-This document specifies the requirements for implementing a multi-store staff assignment feature in the Dreame Retail ERP system. The feature enables staff members to be assigned to multiple stores simultaneously, replacing the current one-to-one relationship with a flexible many-to-many relationship. This allows staff who work across multiple locations to access and manage data for all their assigned stores without needing separate accounts.
+This document specifies the requirements for implementing a multi-store staff assignment feature in the OmniERP Retail ERP system. The feature enables staff members to be assigned to multiple stores simultaneously, replacing the current one-to-one relationship with a flexible many-to-many relationship. This allows staff who work across multiple locations to access and manage data for all their assigned stores without needing separate accounts.
 
 ## Glossary
 

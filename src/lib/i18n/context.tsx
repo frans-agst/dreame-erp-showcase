@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode, useCallback } from 'react';
 import { translations, Language } from './translations';
@@ -15,7 +15,7 @@ const I18nContext = createContext<I18nContextType>({
   t: (key) => key,
 });
 
-const STORAGE_KEY = 'dreame-erp-lang';
+const STORAGE_KEY = 'omnierp-erp-lang';
 const DEFAULT_LANG: Language = 'en'; // Default to English
 
 interface I18nProviderProps {

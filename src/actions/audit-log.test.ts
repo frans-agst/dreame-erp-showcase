@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for audit log functionality
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  */
 
 import { describe, it, expect } from 'vitest';
@@ -100,7 +100,7 @@ const AUDITED_TABLES = [
 
 describe('Audit Log', () => {
   /**
-   * Feature: dreame-retail-erp, Property 18: Audit Log on Data Changes
+   * Feature: omnierp-retail-erp, Property 18: Audit Log on Data Changes
    * *For any* INSERT, UPDATE, or DELETE operation on audited tables,
    * an audit_log record SHALL be created containing the user_id, action type,
    * table_name, record_id, and the old/new values.

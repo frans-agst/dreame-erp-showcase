@@ -1,8 +1,8 @@
-# Design Document: Dreame Retail ERP Dashboard v2.0
+﻿# Design Document: OmniERP Retail ERP Dashboard v2.0
 
 ## Overview
 
-This document describes the technical design for the refactored Dreame Indonesia Retail ERP system with dynamic pricing, organization hierarchy, fiscal calendar, and strict role-based pricing visibility.
+This document describes the technical design for the refactored OmniERP Indonesia Retail ERP system with dynamic pricing, organization hierarchy, fiscal calendar, and strict role-based pricing visibility.
 
 ### Tech Stack
 - **Frontend**: Next.js 16 (App Router), React 19, TypeScript

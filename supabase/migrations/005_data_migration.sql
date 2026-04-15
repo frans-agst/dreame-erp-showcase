@@ -1,5 +1,5 @@
--- ============================================
--- DREAME RETAIL ERP V2.0 - DATA MIGRATION SCRIPT
+﻿-- ============================================
+-- OMNIERP RETAIL ERP V2.0 - DATA MIGRATION SCRIPT
 -- Migration: Branches to Stores, Price columns, References
 -- Date: 2026-01-30
 -- 

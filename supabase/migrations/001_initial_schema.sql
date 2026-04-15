@@ -1,4 +1,4 @@
--- Dreame Retail ERP Database Schema
+﻿-- OmniERP Retail ERP Database Schema
 -- This migration creates all tables with proper constraints and RLS enabled
 
 -- ============================================

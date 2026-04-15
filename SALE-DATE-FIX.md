@@ -1,4 +1,4 @@
-# Sale Date Fix - Completed
+﻿# Sale Date Fix - Completed
 
 ## Problem
 After adding a customizable date field to the sales input form, the dates weren't being saved correctly. Sales were showing up with today's date instead of the custom date entered by staff.
@@ -83,12 +83,12 @@ To verify the fix is working:
    - Should default to today's date
 
 ## Files Modified
-- `dreame-erp/src/app/(dashboard)/sales/input/page.tsx` - Added `sale_date` to defaultValues and reset
+- `omnierp-erp/src/app/(dashboard)/sales/input/page.tsx` - Added `sale_date` to defaultValues and reset
 
 ## Files Already Correct
-- `dreame-erp/src/lib/validations/sales.ts` - Schema already validates `sale_date`
-- `dreame-erp/src/actions/sales.ts` - Backend already handles `sale_date` correctly
-- `dreame-erp/scripts/check-sale-dates.sql` - Diagnostic script to verify dates
+- `omnierp-erp/src/lib/validations/sales.ts` - Schema already validates `sale_date`
+- `omnierp-erp/src/actions/sales.ts` - Backend already handles `sale_date` correctly
+- `omnierp-erp/scripts/check-sale-dates.sql` - Diagnostic script to verify dates
 
 ## Next Steps
 1. Test the form with a custom date

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, Suspense } from 'react';
 import { useForm } from 'react-hook-form';
@@ -84,11 +84,11 @@ function LoginForm() {
       <div className="text-center mb-8">
         <img 
           src="/logo-icon.svg" 
-          alt="Dreame ERP" 
+          alt="OmniERP ERP" 
           className="w-12 h-12 mx-auto mb-4"
           style={{ filter: 'drop-shadow(0 0 6px rgba(0,0,0,0.3))' }}
         />
-        <h1 className="text-2xl font-bold text-primary">Dreame Retail ERP</h1>
+        <h1 className="text-2xl font-bold text-primary">OmniERP Retail ERP</h1>
         <p className="text-secondary mt-2">Sign in to your account</p>
       </div>
 

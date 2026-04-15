@@ -1,4 +1,4 @@
-// Dreame Retail ERP - Internationalization Translations
+﻿// OmniERP Retail ERP - Internationalization Translations
 // Supports: English (en) and Bahasa Indonesia (id)
 
 export type Language = 'en' | 'id';

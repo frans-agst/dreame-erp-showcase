@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
@@ -81,7 +81,7 @@ function DealerSidebar({
           <Link href="/dealer/dashboard" className="flex items-center gap-2">
             <img 
               src="/logo-icon.svg" 
-              alt="Dreame ERP" 
+              alt="OmniERP ERP" 
               className="w-8 h-8"
               style={{ filter: 'drop-shadow(0 0 4px rgba(0,0,0,0.3))' }}
             />

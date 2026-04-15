@@ -1,4 +1,4 @@
-# Sub-Category Differentiation - Quick Fix Guide
+﻿# Sub-Category Differentiation - Quick Fix Guide
 
 ## Problem
 Sub-category filtering on the sales input page isn't working because database values don't match the frontend dropdown options.
@@ -8,7 +8,7 @@ Sub-category filtering on the sales input page isn't working because database va
 ### Step 1: Diagnose the Issue
 Run this in Supabase SQL Editor:
 ```
-dreame-erp/scripts/diagnose-subcategory-issue.sql
+omnierp-erp/scripts/diagnose-subcategory-issue.sql
 ```
 
 This will show you:
@@ -19,7 +19,7 @@ This will show you:
 ### Step 2: Apply the Fix
 Run this in Supabase SQL Editor:
 ```
-dreame-erp/scripts/fix-subcategory-differentiation.sql
+omnierp-erp/scripts/fix-subcategory-differentiation.sql
 ```
 
 This will automatically fix:
@@ -30,7 +30,7 @@ This will automatically fix:
 ### Step 3: Verify the Fix
 Run this in Supabase SQL Editor:
 ```
-dreame-erp/scripts/verify-subcategory-migration.sql
+omnierp-erp/scripts/verify-subcategory-migration.sql
 ```
 
 This will confirm:
@@ -88,5 +88,5 @@ If you still see differentiation issues after running the fix:
 
 See the full analysis report:
 ```
-dreame-erp/SUBCATEGORY-DIFFERENTIATION-ANALYSIS.md
+omnierp-erp/SUBCATEGORY-DIFFERENTIATION-ANALYSIS.md
 ```

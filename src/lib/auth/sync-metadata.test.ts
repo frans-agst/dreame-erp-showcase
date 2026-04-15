@@ -1,6 +1,6 @@
-// src/lib/auth/sync-metadata.test.ts
+﻿// src/lib/auth/sync-metadata.test.ts
 // Property-Based Test for JWT Metadata Synchronization
-// Feature: dreame-retail-erp, Property 2: JWT Metadata Synchronization
+// Feature: omnierp-retail-erp, Property 2: JWT Metadata Synchronization
 // **Validates: Requirements 1.2**
 
 import { describe, it, expect } from 'vitest';

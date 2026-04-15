@@ -1,6 +1,6 @@
-// src/actions/sales.test.ts
+﻿// src/actions/sales.test.ts
 // Property-Based Tests for Sales Actions
-// Feature: dreame-retail-erp
+// Feature: omnierp-retail-erp
 
 import { describe, it, expect } from 'vitest';
 import * as fc from 'fast-check';

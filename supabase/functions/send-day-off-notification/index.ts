@@ -1,4 +1,4 @@
-// supabase/functions/send-day-off-notification/index.ts
+﻿// supabase/functions/send-day-off-notification/index.ts
 // Edge Function to send email notifications for day-off request status changes
 // Uses Resend API for email delivery
 // Requirements: 6.4
@@ -131,7 +131,7 @@ Deno.serve(async (req) => {
     </div>
     
     <p style="margin: 24px 0 0 0; text-align: center; color: #64748B; font-size: 12px;">
-      This is an automated message from Dreame ERP. Please do not reply to this email.
+      This is an automated message from OmniERP ERP. Please do not reply to this email.
     </p>
   </div>
 </body>
@@ -146,7 +146,7 @@ Deno.serve(async (req) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: Deno.env.get('RESEND_FROM_EMAIL') || 'Dreame ERP <noreply@dreame.id>',
+        from: Deno.env.get('RESEND_FROM_EMAIL') || 'OmniERP ERP <noreply@omnierp.id>',
         to: [payload.to],
         subject: `Day-Off Request ${statusText} - ${startDateFormatted}`,
         html: emailHtml,

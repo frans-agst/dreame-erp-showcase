@@ -1,5 +1,5 @@
--- ============================================
--- DREAME RETAIL ERP V2.0 - MAJOR REFACTORING
+﻿-- ============================================
+-- OMNIERP RETAIL ERP V2.0 - MAJOR REFACTORING
 -- Migration: Organization Hierarchy, Dynamic Pricing, Fiscal Calendar
 -- Date: 2026-01-30
 -- ============================================
@@ -395,10 +395,10 @@ SELECT
   s.region,
   s.target
 FROM (VALUES
-  ('Brandstore', 'Dreame Brandstore Lippo Mall Kemang', 'Jakarta', 100000000),
-  ('Brandstore', 'Dreame Brandstore PURI INDAH MALL 2', 'Jakarta', 100000000),
-  ('Brandstore', 'Dreame Brandstore Supermal Karawaci', 'Tangerang', 80000000),
-  ('Brandstore', 'Dreame Brandstore TSM Cibubur', 'Jakarta', 80000000),
+  ('Brandstore', 'OmniERP Brandstore Lippo Mall Kemang', 'Jakarta', 100000000),
+  ('Brandstore', 'OmniERP Brandstore PURI INDAH MALL 2', 'Jakarta', 100000000),
+  ('Brandstore', 'OmniERP Brandstore Supermal Karawaci', 'Tangerang', 80000000),
+  ('Brandstore', 'OmniERP Brandstore TSM Cibubur', 'Jakarta', 80000000),
   ('Hartono', 'Hartono Pondok Indah', 'Jakarta', 75000000),
   ('Electronic City', 'Electronic City SCBD', 'Jakarta', 75000000),
   ('Electronic City', 'Electronic City KARAWACI', 'Tangerang', 60000000),

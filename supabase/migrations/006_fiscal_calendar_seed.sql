@@ -1,5 +1,5 @@
--- ============================================
--- DREAME RETAIL ERP V2.0 - FISCAL CALENDAR SEED DATA
+﻿-- ============================================
+-- OMNIERP RETAIL ERP V2.0 - FISCAL CALENDAR SEED DATA
 -- Generates fiscal calendar for 2024-2026
 -- Week boundaries: Monday-Sunday
 -- Requirements: 4.6

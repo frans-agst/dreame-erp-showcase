@@ -1,4 +1,10 @@
-﻿This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# 03 — README
+
+> Original contents of `README.md` at project root.
+
+---
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -22,7 +28,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, take a look the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
@@ -33,11 +39,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ### Quick Deploy (5 minutes)
 
-See [QUICK-DEPLOY.md](./QUICK-DEPLOY.md) for a fast deployment guide.
+See [QUICK-DEPLOY.md](../QUICK-DEPLOY.md) for a fast deployment guide.
 
 ### Detailed Deployment
 
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for comprehensive deployment instructions including:
+See [DEPLOYMENT.md](../DEPLOYMENT.md) for comprehensive deployment instructions including:
 - GitHub setup
 - Vercel configuration
 - Supabase configuration
@@ -50,3 +56,13 @@ See [DEPLOYMENT.md](./DEPLOYMENT.md) for comprehensive deployment instructions i
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/omnierp-retail-erp&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,SUPABASE_SERVICE_ROLE_KEY)
 
 **Note**: Replace `YOUR_USERNAME` with your GitHub username.
+
+---
+
+## Required Environment Variables
+
+| Variable | Description |
+|---|---|
+| `NEXT_PUBLIC_SUPABASE_URL` | Your Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anonymous/public key |
+| `SUPABASE_SERVICE_ROLE_KEY` | Supabase service role key (server-only) |

@@ -1,5 +1,5 @@
--- ============================================
--- DREAME RETAIL ERP - DEVELOPMENT DATABASE SETUP
+﻿-- ============================================
+-- OMNIERP RETAIL ERP - DEVELOPMENT DATABASE SETUP
 -- Run this in your NEW Supabase project's SQL Editor
 -- ============================================
 
@@ -289,13 +289,13 @@ INSERT INTO public.branches (name, account, province, monthly_target) VALUES
 
 -- Sample products
 INSERT INTO public.products (sku, name, price, category) VALUES
-  ('DRM-V10', 'Dreame V10', 2500000, 'Vacuum'),
-  ('DRM-V11', 'Dreame V11', 3500000, 'Vacuum'),
-  ('DRM-V12', 'Dreame V12', 4500000, 'Vacuum'),
-  ('DRM-L10P', 'Dreame L10 Pro', 5500000, 'Robot'),
-  ('DRM-L20U', 'Dreame L20 Ultra', 12000000, 'Robot'),
-  ('DRM-H12', 'Dreame H12', 4000000, 'Wet & Dry'),
-  ('DRM-H13', 'Dreame H13 Pro', 6000000, 'Wet & Dry');
+  ('DRM-V10', 'OmniERP V10', 2500000, 'Vacuum'),
+  ('DRM-V11', 'OmniERP V11', 3500000, 'Vacuum'),
+  ('DRM-V12', 'OmniERP V12', 4500000, 'Vacuum'),
+  ('DRM-L10P', 'OmniERP L10 Pro', 5500000, 'Robot'),
+  ('DRM-L20U', 'OmniERP L20 Ultra', 12000000, 'Robot'),
+  ('DRM-H12', 'OmniERP H12', 4000000, 'Wet & Dry'),
+  ('DRM-H13', 'OmniERP H13 Pro', 6000000, 'Wet & Dry');
 
 -- ============================================
 -- DONE! Now create a test user:

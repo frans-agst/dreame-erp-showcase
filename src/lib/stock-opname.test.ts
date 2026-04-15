@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for stock opname utilities
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  */
 
 import { describe, it, expect } from 'vitest';
@@ -62,7 +62,7 @@ describe('Stock Opname Utilities', () => {
   );
 
   /**
-   * Feature: dreame-retail-erp, Property 13: Stock Opname Inventory Overwrite
+   * Feature: omnierp-retail-erp, Property 13: Stock Opname Inventory Overwrite
    * *For any* completed stock opname with counted quantities, the inventory table
    * SHALL be updated such that each product's quantity equals the counted_qty from the opname.
    * **Validates: Requirements 7.4**
@@ -152,7 +152,7 @@ describe('Stock Opname Utilities', () => {
   });
 
   /**
-   * Feature: dreame-retail-erp, Property 14: Stock Opname Discrepancy Calculation
+   * Feature: omnierp-retail-erp, Property 14: Stock Opname Discrepancy Calculation
    * *For any* stock opname item with previous_qty and counted_qty,
    * discrepancy SHALL equal `counted_qty - previous_qty`
    * **Validates: Requirements 7.6**

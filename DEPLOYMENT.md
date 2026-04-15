@@ -1,4 +1,4 @@
-# Deploying Dreame Retail ERP to Vercel
+﻿# Deploying OmniERP Retail ERP to Vercel
 
 This guide will walk you through deploying your Next.js + Supabase ERP application to Vercel.
 
@@ -16,19 +16,19 @@ This guide will walk you through deploying your Next.js + Supabase ERP applicati
 ```bash
 git init
 git add .
-git commit -m "Initial commit - Dreame Retail ERP"
+git commit -m "Initial commit - OmniERP Retail ERP"
 ```
 
 ### 1.2 Create a GitHub Repository
 
 1. Go to https://github.com/new
-2. Create a new repository (e.g., `dreame-retail-erp`)
+2. Create a new repository (e.g., `omnierp-retail-erp`)
 3. Don't initialize with README (you already have one)
 
 ### 1.3 Push to GitHub
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/dreame-retail-erp.git
+git remote add origin https://github.com/YOUR_USERNAME/omnierp-retail-erp.git
 git branch -M main
 git push -u origin main
 ```
@@ -57,7 +57,7 @@ SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 2. **Import Your Repository**
    - Click "Add New..." → "Project"
    - Select "Import Git Repository"
-   - Find and select your `dreame-retail-erp` repository
+   - Find and select your `omnierp-retail-erp` repository
    - Click "Import"
 
 3. **Configure Project**

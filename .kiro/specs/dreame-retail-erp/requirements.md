@@ -1,8 +1,8 @@
-# Requirements Document
+﻿# Requirements Document
 
 ## Introduction
 
-This document specifies the requirements for a comprehensive retail ERP and sales dashboard system for Dreame Indonesia. The system supports multi-tier pricing (Retail, Dealer, Channel-specific), organization hierarchy (Account > Store), fiscal calendar-based reporting, and strict role-based access control for four user roles: Admin, Manager, Staff, and Dealer.
+This document specifies the requirements for a comprehensive retail ERP and sales dashboard system for OmniERP Indonesia. The system supports multi-tier pricing (Retail, Dealer, Channel-specific), organization hierarchy (Account > Store), fiscal calendar-based reporting, and strict role-based access control for four user roles: Admin, Manager, Staff, and Dealer.
 
 ## Glossary
 

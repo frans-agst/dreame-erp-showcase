@@ -1,4 +1,4 @@
-# Multi-Store Staff Assignment - User Guide
+﻿# Multi-Store Staff Assignment - User Guide
 
 Welcome to the multi-store staff assignment feature! This guide will help you understand and use the new capabilities for managing staff across multiple store locations.
 
@@ -47,7 +47,7 @@ When you log in, if you're assigned to multiple stores, you'll see a **Store Sel
 
 ```
 ┌─────────────────────────────────────────┐
-│  Dreame ERP    Store: [Downtown ▼]     │
+│  OmniERP ERP    Store: [Downtown ▼]     │
 └─────────────────────────────────────────┘
 ```
 

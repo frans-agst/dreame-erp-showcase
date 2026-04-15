@@ -1,4 +1,4 @@
-# Critical Bugs Analysis - Dreame Retail ERP
+﻿# Critical Bugs Analysis - OmniERP Retail ERP
 
 **Purpose:** Documentation of the most critical and complex bugs encountered throughout the project lifecycle.  
 **Date:** March 2026  

@@ -1,4 +1,4 @@
-import {
+﻿import {
   Document,
   Page,
   Text,
@@ -225,7 +225,7 @@ export function PurchaseOrderPDF({ po }: PurchaseOrderPDFProps) {
         {/* Header */}
         <View style={styles.header}>
           <Text style={styles.title}>PURCHASE ORDER</Text>
-          <Text style={styles.subtitle}>Dreame Indonesia</Text>
+          <Text style={styles.subtitle}>OmniERP Indonesia</Text>
         </View>
 
         {/* PO Info */}
@@ -301,7 +301,7 @@ export function PurchaseOrderPDF({ po }: PurchaseOrderPDFProps) {
             day: 'numeric',
             hour: '2-digit',
             minute: '2-digit'
-          })} | Dreame Indonesia ERP System
+          })} | OmniERP Indonesia ERP System
         </Text>
       </Page>
     </Document>

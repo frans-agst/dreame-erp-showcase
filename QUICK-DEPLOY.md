@@ -1,4 +1,4 @@
-# Quick Deploy Guide - 5 Minutes
+﻿# Quick Deploy Guide - 5 Minutes
 
 Follow these steps to deploy your app to Vercel in 5 minutes:
 
@@ -11,7 +11,7 @@ git add .
 git commit -m "Ready for deployment"
 
 # Create repo on GitHub, then:
-git remote add origin https://github.com/YOUR_USERNAME/dreame-retail-erp.git
+git remote add origin https://github.com/YOUR_USERNAME/omnierp-retail-erp.git
 git branch -M main
 git push -u origin main
 ```

@@ -1,7 +1,7 @@
-# Dreame Retail ERP - Complete Database Schema
+﻿# OmniERP Retail ERP - Complete Database Schema
 
 ## Overview
-This document provides the complete database schema for the Dreame Retail ERP system, including all tables, relationships, and key JSONB structures.
+This document provides the complete database schema for the OmniERP Retail ERP system, including all tables, relationships, and key JSONB structures.
 
 **Last Updated:** March 2026  
 **Schema Version:** 2.0 (Post-Migration from Branches to Stores)

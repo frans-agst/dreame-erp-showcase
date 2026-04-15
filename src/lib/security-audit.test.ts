@@ -1,5 +1,5 @@
-/**
- * Security Audit Tests - Dreame Retail ERP
+﻿/**
+ * Security Audit Tests - OmniERP Retail ERP
  * 
  * Task 15: Security Audit
  * 

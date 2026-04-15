@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for Purchase Order functionality
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  */
 
 import { describe, it, expect } from 'vitest';
@@ -8,7 +8,7 @@ import * as fc from 'fast-check';
 import { calculateAfterTax, calculateLineTotal } from '@/lib/calculations';
 
 /**
- * Feature: dreame-retail-erp, Property 7: Purchase Order Line Calculations
+ * Feature: omnierp-retail-erp, Property 7: Purchase Order Line Calculations
  * *For any* PO line item with before_tax price and quantity:
  * - after_tax SHALL equal `before_tax * 1.11` (11% VAT)
  * - line_total SHALL equal `after_tax * quantity`
@@ -104,7 +104,7 @@ describe('Property 7: Purchase Order Line Calculations', () => {
 });
 
 /**
- * Feature: dreame-retail-erp, Property 8: PO Inventory Invariant
+ * Feature: omnierp-retail-erp, Property 8: PO Inventory Invariant
  * *For any* purchase order creation, the inventory table quantities 
  * SHALL remain unchanged before and after the PO is saved.
  * **Validates: Requirements 4.6**

@@ -1,6 +1,6 @@
-/**
+﻿/**
  * Property-based tests for Gift Inventory Invariant
- * Feature: dreame-retail-erp
+ * Feature: omnierp-retail-erp
  * 
  * Property 5: Gift Inventory Invariant
  * *For any* sale submission with gift_details, the inventory SHALL be decremented

@@ -1,5 +1,5 @@
-/**
- * Calculation utilities for Dreame Retail ERP
+﻿/**
+ * Calculation utilities for OmniERP Retail ERP
  * Contains all business logic calculations for sales, inventory, and purchase orders
  */
 
