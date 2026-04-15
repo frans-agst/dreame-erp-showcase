@@ -39,9 +39,13 @@ By transitioning from manual operational tracking to this custom automated archi
 * **Streamlined B2B operations** by generating automated, VAT-calculated PDF Purchase Orders directly from the dealer portal.
 
 ## 🖼️ Interface Preview
+<details>
+  <summary>Click to reveal the images!</summary>
 <img width="1891" height="941" alt="Untitled design (2)" src="https://github.com/user-attachments/assets/22c033be-7fb6-4fe0-90f5-b61454608457" />
 <img width="1891" height="941" alt="Untitled design (1)" src="https://github.com/user-attachments/assets/1d0940af-9d55-40d8-9787-891f18cdec9f" />
 <img width="1891" height="941" alt="Untitled design" src="https://github.com/user-attachments/assets/d73ca110-3321-49bb-8878-13e8ab918adc" />
 <img width="1904" height="915" alt="Screenshot 2026-04-15 182948" src="https://github.com/user-attachments/assets/7776fd43-e4c1-42b1-887c-5f1e56a7d8a2" />
-<img width="1914" height="931" alt="Screenshot 2026-04-15 183109" src="https://github.com/user-attachments/assets/f4561dbf-12ac-4b5a-9d9e-253b3dd55451" />
 <img width="1891" height="941" alt="Untitled design (3)" src="https://github.com/user-attachments/assets/4bb506e6-416a-45fc-8718-4787e13c2b2e" />
+<img width="1914" height="931" alt="Screenshot 2026-04-15 183109" src="https://github.com/user-attachments/assets/f4561dbf-12ac-4b5a-9d9e-253b3dd55451" />
+</details>
+
