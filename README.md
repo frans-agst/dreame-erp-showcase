@@ -7,7 +7,7 @@
 ## 📌 Architectural Overview
 Managing high-frequency data entry, multi-tier channel pricing, and supply chain bottlenecks requires a highly scalable solution. This custom ERP-lite dashboard replaces fragmented operational workflows with a single, centralized source of truth. 
 
-Developed using an agentic AI workflow (Cursor/Kiro.dev), this system was rapidly prototyped and deployed into production, significantly reducing development cycles while maintaining enterprise-grade security.
+Developed using an agentic AI workflow, this system was rapidly prototyped and deployed into production, significantly reducing development cycles while maintaining enterprise-grade security.
 
 ## ⚙️ Technical Stack
 * **Framework:** Next.js 16 (App Router) & React 19
