@@ -1,3 +1,4 @@
+
 # Omnichannel Retail OS & ERP 
 
 > A secure, full-stack Enterprise Resource Planning (ERP) system architected to automate multi-store inventory, visualize high-frequency sales data, and enforce strict role-based access across retail networks.
@@ -38,4 +39,8 @@ By transitioning from manual operational tracking to this custom automated archi
 * **Streamlined B2B operations** by generating automated, VAT-calculated PDF Purchase Orders directly from the dealer portal.
 
 ## 🖼️ Interface Preview
-*(Insert a high-quality, sanitized screenshot of your Sales Dashboard or Inventory Matrix here)*
+<img width="1910" height="937" alt="Screenshot 2026-04-15 182856" src="https://github.com/user-attachments/assets/7382ae74-9297-4dd4-ab60-03185cd01590" />
+<img width="1891" height="941" alt="2" src="https://github.com/user-attachments/assets/370708ec-4820-4e53-8869-d0cbd3b997ca" />
+<img width="1891" height="941" alt="Untitled design" src="https://github.com/user-attachments/assets/d73ca110-3321-49bb-8878-13e8ab918adc" />
+<img width="1904" height="915" alt="Screenshot 2026-04-15 182948" src="https://github.com/user-attachments/assets/7776fd43-e4c1-42b1-887c-5f1e56a7d8a2" />
+<img width="1914" height="931" alt="Screenshot 2026-04-15 183109" src="https://github.com/user-attachments/assets/f4561dbf-12ac-4b5a-9d9e-253b3dd55451" />
